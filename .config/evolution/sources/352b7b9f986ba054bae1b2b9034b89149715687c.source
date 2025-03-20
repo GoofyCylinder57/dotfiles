@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=nicole.rasmussen128@gmail.com
+Enabled=true
+Parent=8349cf495fddba90a503827430ac656ddeba8cd8
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=09458cc91e957f4581719b3fda3bf7ed77723324
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=nicole.rasmussen128@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

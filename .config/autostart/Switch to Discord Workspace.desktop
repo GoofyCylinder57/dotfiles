@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=xdotool keydown Ctrl keydown Super key 4 keyup Ctrl keyup Super
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=Switch to Discord Workspace
+Comment[en_US]=Switches to the Workspace dedicated for Discord
+X-GNOME-Autostart-Delay=8

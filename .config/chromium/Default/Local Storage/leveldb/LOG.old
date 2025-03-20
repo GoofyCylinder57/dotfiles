@@ -1,0 +1,9 @@
+2024/07/06-13:38:35.453 4 Reusing MANIFEST /home/nicole/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/07/06-13:38:35.461 4 Recovering log #3
+2024/07/06-13:38:35.461 4 Reusing old log /home/nicole/.config/chromium/Default/Local Storage/leveldb/000003.log 
+2024/07/06-13:44:25.109 6 Level-0 table #5: started
+2024/07/06-13:44:25.112 6 Level-0 table #5: 61754 bytes OK
+2024/07/06-13:44:25.120 6 Delete type=0 #3
+2024/07/06-13:44:27.865 6 Level-0 table #7: started
+2024/07/06-13:44:27.868 6 Level-0 table #7: 59910 bytes OK
+2024/07/06-13:44:27.871 6 Delete type=0 #4

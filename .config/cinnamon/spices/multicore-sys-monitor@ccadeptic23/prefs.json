@@ -1,0 +1,212 @@
+{
+ "labelsOn": true,
+ "thickness": 1,
+ "refreshRate": 1000,
+ "labelColor": [
+  0.9333333333333333,
+  0.9333333333333333,
+  0.9254901960784314,
+  1
+ ],
+ "backgroundColor": [
+  1,
+  1,
+  1,
+  0.1
+ ],
+ "cpu": {
+  "enabled": true,
+  "width": 40,
+  "colors": [
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ]
+ },
+ "mem": {
+  "enabled": true,
+  "width": 40,
+  "colors": [
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0.6,
+    0.6,
+    0.6,
+    0.8
+   ],
+   [
+    0.8,
+    0.8,
+    0.8,
+    0.8
+   ],
+   [
+    0.9,
+    0.9,
+    0.9,
+    0.1
+   ]
+  ],
+  "swapcolors": [
+   [
+    1,
+    1,
+    1,
+    0.15
+   ]
+  ]
+ },
+ "net": {
+  "enabled": true,
+  "autoscale": true,
+  "logscale": true,
+  "width": 40,
+  "devices": [
+   {
+    "id": "lo",
+    "enabled": false,
+    "show": 4,
+    "colors": [
+     [
+      1,
+      1,
+      1,
+      0.8
+     ],
+     [
+      0,
+      0,
+      0,
+      0.6
+     ]
+    ],
+    "up": 64074,
+    "down": 64074,
+    "tooltipUp": 0,
+    "tooltipDown": 0,
+    "lastReading": [
+     0,
+     0
+    ],
+    "readingRatesList": []
+   },
+   {
+    "id": "enp2s0",
+    "enabled": false,
+    "show": 4,
+    "colors": [
+     [
+      1,
+      1,
+      1,
+      0.8
+     ],
+     [
+      0,
+      0,
+      0,
+      0.6
+     ]
+    ],
+    "up": 0,
+    "down": 0,
+    "tooltipUp": 0,
+    "tooltipDown": 0,
+    "lastReading": [
+     0,
+     0
+    ],
+    "readingRatesList": []
+   },
+   {
+    "id": "wlp1s0",
+    "enabled": false,
+    "show": 4,
+    "colors": [
+     [
+      1,
+      1,
+      1,
+      0.8
+     ],
+     [
+      0,
+      0,
+      0,
+      0.6
+     ]
+    ],
+    "up": 552431,
+    "down": 14347507,
+    "tooltipUp": 0,
+    "tooltipDown": 0,
+    "lastReading": [
+     0,
+     0
+    ],
+    "readingRatesList": []
+   }
+  ]
+ },
+ "disk": {
+  "enabled": true,
+  "autoscale": true,
+  "logscale": true,
+  "width": 40,
+  "devices": [
+   {
+    "id": "/",
+    "enabled": true,
+    "show": 4,
+    "colors": [
+     [
+      1,
+      1,
+      1,
+      1
+     ],
+     [
+      0.6,
+      0.6,
+      0.6,
+      0.8
+     ]
+    ],
+    "path": "/",
+    "read": 13672554496,
+    "write": 855900160,
+    "lastReading": [
+     0,
+     0
+    ],
+    "readingRatesList": []
+   }
+  ]
+ }
+}

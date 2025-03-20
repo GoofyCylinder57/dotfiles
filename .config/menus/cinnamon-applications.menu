@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/cinnamon-applications.menu</MergeFile>
+	<Menu>
+		<Name>Development</Name>
+		<Include>
+			<Filename>python3.10.desktop</Filename>
+		</Include>
+		<AppDir>/home/nicole/.local/share/applications</AppDir>
+		<Include>
+			<Filename>Zed.desktop</Filename>
+		</Include>
+	</Menu>
+	<Menu>
+		<Name>Other</Name>
+	</Menu>
+	<Menu>
+		<Name>Games</Name>
+		<Include>
+			<Filename>Balatro.desktop</Filename>
+		</Include>
+		<AppDir>/home/nicole/.local/share/applications</AppDir>
+		<Include>
+			<Filename>Democracy 4.desktop</Filename>
+		</Include>
+	</Menu>
+</Menu>

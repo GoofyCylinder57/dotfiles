@@ -1,0 +1,11 @@
+audio.play_bitrate_non_metered_migrated=true
+audio.equalizer_v2=true
+audio.equalizer.low_peak_gain_v2=626349397
+audio.equalizer.low_mid_peak_gain_v2=223696213
+audio.play_bitrate_enumeration=3
+ui.track_notifications_enabled=false
+ui.right_panel_content=0
+audio.play_bitrate_non_metered_enumeration=3
+app.browser.zoom-level=-200
+app.player.volume=31457
+audio.equalizer.low_shelf_gain_v2=760567125

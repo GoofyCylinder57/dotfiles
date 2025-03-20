@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=xdotool keydown Ctrl keydown Super key 2 keyup Ctrl keyup Super
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=Switch to Background Workspace
+Comment[en_US]=No description
+X-GNOME-Autostart-Delay=2
