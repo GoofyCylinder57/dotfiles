@@ -116,7 +116,7 @@ zmodload zsh/parameter  # Needed to access jobstates variable for STARSHIP_JOBS_
 if [[ $ZSH_VERSION == ([1-4]*) ]]; then
     # ZSH <= 5; Does not have a built-in variable so we will rely on Starship's inbuilt time function.
     __starship_get_time() {
-        STARSHIP_CAPTURED_TIME=$(/home/nicole/.cargo/bin/starship time)
+        STARSHIP_CAPTURED_TIME=$($HOME/.cargo/bin/starship time)
     }
 else
     zmodload zsh/datetime
@@ -190,9 +190,9 @@ VIRTUAL_ENV_DISABLE_PROMPT=1
 
 setopt promptsubst
 
-PROMPT='$('/home/nicole/.cargo/bin/starship' prompt --terminal-width="$COLUMNS" --keymap="${KEYMAP:-}" --status="$STARSHIP_CMD_STATUS" --pipestatus="${STARSHIP_PIPE_STATUS[*]}" --cmd-duration="${STARSHIP_DURATION:-}" --jobs="$STARSHIP_JOBS_COUNT")'
-RPROMPT='$('/home/nicole/.cargo/bin/starship' prompt --right --terminal-width="$COLUMNS" --keymap="${KEYMAP:-}" --status="$STARSHIP_CMD_STATUS" --pipestatus="${STARSHIP_PIPE_STATUS[*]}" --cmd-duration="${STARSHIP_DURATION:-}" --jobs="$STARSHIP_JOBS_COUNT")'
-PROMPT2="$(/home/nicole/.cargo/bin/starship prompt --continuation)"
+PROMPT='$('$HOME/.cargo/bin/starship' prompt --terminal-width="$COLUMNS" --keymap="${KEYMAP:-}" --status="$STARSHIP_CMD_STATUS" --pipestatus="${STARSHIP_PIPE_STATUS[*]}" --cmd-duration="${STARSHIP_DURATION:-}" --jobs="$STARSHIP_JOBS_COUNT")'
+RPROMPT='$('$HOME/.cargo/bin/starship' prompt --right --terminal-width="$COLUMNS" --keymap="${KEYMAP:-}" --status="$STARSHIP_CMD_STATUS" --pipestatus="${STARSHIP_PIPE_STATUS[*]}" --cmd-duration="${STARSHIP_DURATION:-}" --jobs="$STARSHIP_JOBS_COUNT")'
+PROMPT2="$($HOME/.cargo/bin/starship prompt --continuation)"
 eval $(zoxide init zsh)
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
@@ -202,16 +202,16 @@ alias cd=z
 alias cat=bat
 alias ls="eza -A"
 
-export PATH=$PATH:/home/nicole/zed-preview.app/bin/
+export PATH=$PATH:$HOME/zed-preview.app/bin/
 export PATH="/home/linuxbrew/.linuxbrew/opt/openjdk@17/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PATH=$PATH:/home/nicole/code/bin/
+export PATH=$PATH:$HOME/code/bin/
 
-source /home/nicole/.config/broot/launcher/bash/br
+source $HOME/.config/broot/launcher/bash/br
 
 eval $(thefuck --alias)
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
