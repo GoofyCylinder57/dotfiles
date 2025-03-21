@@ -1,15 +1,8 @@
-gcc
-glfw
-go-blueprint
-gobject-introspection
-gtk+
 kotlin
-libadwaita
+go
 meson
 neovim
 openjdk@17
 rustup
-sassc
 thefuck
-vala
 zig
