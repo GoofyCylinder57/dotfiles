@@ -30,4 +30,5 @@ if command -v "rustup" &> /dev/null; then
   cargo install starship zoxide broot
 fi
 
+broot --install
 starship init zsh >> .zshrc
