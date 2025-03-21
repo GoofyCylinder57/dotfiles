@@ -22,6 +22,5 @@ config config --local status.showUntrackedFiles no
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 if command -v "brew" &> /dev/null; then
-  brew install $(cat ./.brew_leaves)
+  brew install $(cat .brew_leaves.txt)
 fi
-
