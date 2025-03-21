@@ -20,10 +20,7 @@ xargs -I{} mv {} .config-backup/{}
 config checkout
 config config --local status.showUntrackedFiles no
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-if command -v "brew" &> /dev/null; then
-  brew install $(cat .brew_leaves.txt)
-fi
+NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 if command -v "rustup" &> /dev/null; then
   rustup default stable
@@ -32,3 +29,10 @@ fi
 
 broot --install
 starship init zsh >> .zshrc
+
+# Do this last, it's the most error-prone
+if command -v "brew" &> /dev/null; then
+  brew install $(cat .brew_leaves.txt)
+fi
+
+echo "\n\n If brew install failed run `brew install \$(cat $HOME/.brew_leaves.txt)`"
