@@ -24,3 +24,10 @@ config config --local status.showUntrackedFiles no
 if command -v "brew" &> /dev/null; then
   brew install $(cat .brew_leaves.txt)
 fi
+
+if command -v "rustup" &> /dev/null; then
+  rustup default stable
+  cargo install starship zoxide broot
+fi
+
+starship init zsh >> .zshrc
