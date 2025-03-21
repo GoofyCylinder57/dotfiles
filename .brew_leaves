@@ -1,0 +1,15 @@
+gcc
+glfw
+go-blueprint
+gobject-introspection
+gtk+
+kotlin
+libadwaita
+meson
+neovim
+openjdk@17
+rustup
+sassc
+thefuck
+vala
+zig
